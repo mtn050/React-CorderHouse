@@ -8,8 +8,8 @@ import './CardWidget.css'
 const CardWidget = (props) =>{
     return(
         <header>
-         <img src="https://i.pinimg.com/736x/6e/90/9e/6e909ea80005ab34d61ee144686c40ee.jpg" alt="img not found"
-         width="50px" heigth="50px"/>
+         <img src="https://images.vexels.com/media/users/3/200097/isolated/preview/942820836246f08c2d6be20a45a84139-icono-de-carrito-de-compras-carrito-de-compras.png" 
+         alt="img not found" class="imagen"/>
          <p>el numero es = {props.cantidad}</p>
         </header>
     )

@@ -5,8 +5,8 @@ import ReactDOM from 'react-dom/client';
 //styles
 import './index.css';
 //comps
-//import App from './App';
 import NavBar from './Components/navbar/NavBar.js'
+
 //core
 import reportWebVitals from './reportWebVitals';
 import ItemListContainer from './Components/ItemListContainer/ItemListContainer';
