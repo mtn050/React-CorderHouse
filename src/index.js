@@ -9,13 +9,15 @@ import './index.css';
 import NavBar from './Components/navbar/NavBar.js'
 //core
 import reportWebVitals from './reportWebVitals';
+import ItemListContainer from './Components/ItemListContainer/ItemListContainer';
+import Footer from './Components/footer/footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <NavBar
-    saludo = {<p>"Bienvenido"</p>}
-    />
+    <NavBar/>
+    <ItemListContainer/>
+    <Footer/>
   </React.StrictMode>
 );
 

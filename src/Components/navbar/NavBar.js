@@ -1,5 +1,6 @@
 /*------Importaciones------*/
 import './NavBar.css'
+import CardWidget from '../CardWidget/CardWidget.js';
 
 
 
@@ -9,10 +10,10 @@ import './NavBar.css'
 const NavBar = (props) =>{//solamente retorna una cosa
     return(
         <header>
-            <button onClick={props.saludo}>Saludar</button>
-            <button>chau</button>
-            <button>chau2</button>
-            <button>chau3</button>
+            <button onClick={props.saludo}>Home</button>
+            <button>Productos</button>
+            <button>Categorias</button>
+           <CardWidget cantidad = "10"/>
         </header>
     )
 }
