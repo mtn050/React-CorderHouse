@@ -14,7 +14,9 @@ const NavBar = (props) =>{//solamente retorna una cosa
                 <a href = "#" class="nav_enlace">Home</a>
                 <a href = "#" class="nav_enlace">Productos</a>
                 <a href = "#"  class="nav_enlace">Categorias</a>
-                <CardWidget cantidad = "10"/>   
+                <div>
+                    <CardWidget cantidad = "10"/>
+                </div>   
         </header>
     )
 }

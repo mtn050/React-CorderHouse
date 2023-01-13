@@ -1,4 +1,10 @@
-.imagen{
- width: 50px;
- height: 50px;
+
+.numero{
+    background-color:#FFFBEB;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+}
+.numero:hover{
+    background-color: rgb(185, 102, 93);
 }

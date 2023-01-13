@@ -1,22 +1,24 @@
 header{
-    background-color: rebeccapurple;
+    background-color:#495579;
     padding: 10px;
+    display:flex;
+    justify-content: flex-start;
 }
 .nav_enlace{
     display: inline-block;
-    background-color: salmon;
+    background-color: #263159;
     color:#fff;
     padding: 10px 30px;
     text-decoration:none;
     margin: 15px;
+    border-radius: 30px;
 }
 .nav_enlace:hover{
-    background-color: rgb(185, 102, 93);
+    background-color: rgb(185, 102, 93);    
 }
+
 h1{
-    display: flex;
-    justify-content: center;
-    background-color: salmon;
+    display: inline-block;
     color:#fff;
-    font-family:'Sans-serif';
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
