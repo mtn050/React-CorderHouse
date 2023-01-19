@@ -8,9 +8,9 @@ import './footer.css'
 /*-------Logica-----------*/
 const Footer = () =>{//solamente retorna una cosa
     return(
-        <p>
+        <div className = "footer">
         Fantastico Footer
-        </p>
+        </div>
     )
 }
 
