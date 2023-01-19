@@ -1,17 +1,21 @@
 /*------Importaciones------*/
+//estilos
 import './ItemListContainer.css'
-
-
+//componentes
+import ItemList from '../itemlist/ItemList';
+//Modulos
 
 
 
 
 /*-------Logica-----------*/
-const ItemListContainer = () =>{//solamente retorna una cosa
+const ItemListContainer = () =>{
+ 
+
     return(
-        <p>
-        Increible Item List Container
-        </p>
+        <div>
+          <ItemList/>
+        </div>
     )
 }
 

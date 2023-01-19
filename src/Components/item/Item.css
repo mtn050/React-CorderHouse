@@ -1,0 +1,14 @@
+.item{
+    background-color: aliceblue;
+    width: 25%;
+    margin: 25px;
+    border: 1px solid #000;
+    border-left: 5px solid #000;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding: 10px;
+
+}
+.item:hover{
+    border-left: 10px solid  rgb(185, 102, 93);
+}

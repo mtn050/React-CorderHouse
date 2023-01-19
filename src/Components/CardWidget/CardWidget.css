@@ -1,10 +1,16 @@
-
-.numero{
-    background-color:#FFFBEB;
-    border-radius: 100%;
+.imagen{
     width: 50px;
     height: 50px;
+    
+}
+.imagen:hover{
+    width: 55px;
+    height: 55px;
+}
+.numero{
+    text-decoration: none;
+    color: #FFFBEB;
 }
 .numero:hover{
-    background-color: rgb(185, 102, 93);
+    color:  rgb(185, 102, 93);
 }

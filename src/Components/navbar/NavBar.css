@@ -7,11 +7,20 @@ header{
 .nav_enlace{
     display: inline-block;
     background-color: #263159;
-    color:#fff;
     padding: 10px 30px;
-    text-decoration:none;
     margin: 15px;
     border-radius: 30px;
+    color: azure;
+    text-decoration: none;
+
+}
+:link{
+    color: black;
+    text-decoration: none;
+}
+:visited{
+    color: black;
+    text-decoration: none;
 }
 .nav_enlace:hover{
     background-color: rgb(185, 102, 93);    
